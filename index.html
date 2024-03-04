@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../temp/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
@@ -15,14 +15,14 @@
     <button class="button red-button" onclick="playVideo()">Красная кнопка</button>
 
     <video id="myVideo" style="display: none;">
-        <source src="../temp/video.mp4" type="video/mp4">
+        <source src="video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
     <script>
         function playSoundAndSetVolume() {
             // Воспроизведение звука (здесь можно указать путь к аудиофайлу)
-            var audio = new Audio('../temp/sound.mp3');
+            var audio = new Audio('sound.mp3');
             audio.play();
 
             // Установка громкости на максимальное значение (требует административных прав)
